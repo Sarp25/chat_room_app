@@ -1,7 +1,7 @@
 import socket, threading, time
 
-HOST = "127.0.0.1"  # Localhost for testing
-PORT = 55555        # Updated to 55555 to sync cleanly with the new client.py
+HOST = "127.0.0.1"
+PORT = 55555       
 
 
 RESET = "\033[0m"
