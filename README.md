@@ -1,4 +1,8 @@
 # Multi-Threaded TCP Chat Application
+[![Python Version](https://img.shields.io/badge/Python-3.13%2B-blue)](https://python.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Release Version](https://img.shields.io/badge/Version-1.0.0-green)
+![Status](https://img.shields.io/badge/Status-Stable-brightgreen)
 
 An extensible, multi-threaded terminal chat application implemented using standard Python socket primitives. The system features custom command parsing, robust asynchronous terminal I/O synchronization, dynamic thread management, thread-safe memory handling, and localized interactive color messaging.
 
