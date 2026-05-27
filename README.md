@@ -4,7 +4,7 @@ An extensible, multi-threaded terminal chat application implemented using standa
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * **Asynchronous Multi-Threading:** Employs concurrent Python background worker threads (`daemon=True`) to split socket transmission and interface rendering, preventing terminal interface freezes.
 * **Smart Prompt Synchronization:** Implements cross-thread tracking flags (`waiting_for_input`) alongside low-level ANSI escape characters (`\r\033[K`) to dynamically wipe and redraft the text cursor prompt (`> `), completely resolving asynchronous layout overlaps.
@@ -17,7 +17,7 @@ An extensible, multi-threaded terminal chat application implemented using standa
 
 ---
 
-## 🛠️ Architecture Overview
+## Architecture Overview
 
 The system runs on an asynchronous Client-Server model operating strictly on the Transport layer via TCP sockets (`SOCK_STREAM`):
 
@@ -40,14 +40,14 @@ The system runs on an asynchronous Client-Server model operating strictly on the
 
 ---
 
-## 💻 Requirements
+## Requirements
 
 * **Python 3.x** (Tested extensively on Python 3.8+)
 * **Dependencies:** None. Built entirely using standard, cross-platform modules (`socket`, `threading`, `sys`, `os`, `time`).
 
 ---
 
-## ⚙️ Installation & Usage
+## Installation & Usage
 
 Follow these steps to run the application locally on your machine:
 
@@ -84,7 +84,7 @@ python client.py
 
 ---
 
-## 🧩 Protocol Design & Command Structure
+## Protocol Design & Command Structure
 
 The application routes text streams using distinct color schemas via ANSI codes to provide a clean terminal user experience:
 
