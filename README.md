@@ -1,6 +1,5 @@
 # Multi-Threaded TCP Chat Application
 [![Python Version](https://img.shields.io/badge/Python-3.13%2B-blue)](https://python.org)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Release Version](https://img.shields.io/badge/Version-1.0.0-green)
 ![Status](https://img.shields.io/badge/Status-Stable-brightgreen)
 
@@ -46,7 +45,7 @@ The system runs on an asynchronous Client-Server model operating strictly on the
 
 ## Requirements
 
-* **Python 3.x** (Tested extensively on Python 3.8+)
+* **Python 3.x** (Tested extensively on Python 3.13+)
 * **Dependencies:** None. Built entirely using standard, cross-platform modules (`socket`, `threading`, `sys`, `os`, `time`).
 
 ---
