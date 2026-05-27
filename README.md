@@ -1,6 +1,3 @@
-Here is a professional, beautifully structured `README.md` file tailored specifically for your project. It explains the architecture, features, and setup instructions, making it perfect to hand in to your professor alongside your source files.
-
-```markdown
 # Multi-Threaded TCP Chat Application
 
 An extensible, multi-threaded terminal chat application implemented using standard Python socket primitives. The system features custom command parsing, robust asynchronous terminal I/O synchronization, dynamic thread management, thread-safe memory handling, and localized interactive color messaging.
