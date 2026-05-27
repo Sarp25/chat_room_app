@@ -90,7 +90,7 @@ The application routes text streams using distinct color schemas via ANSI codes 
 
 | Event/Command Type | Terminal Layout Sample | Target Audience |
 | --- | --- | --- |
-| **System Welcome** | `[SYSTEM] Type /help to see available commands.` | Newcomer Private Message |
+| **System Welcome** | `[SYSTEM] Type /help to see all commands.` | Newcomer Private Message |
 | **Global Broadcast** | `[SYSTEM] Mark joined the chat!` | All Active Sockets |
 | **Standard Text Chat** | `Eric: how are you` | Broadcast Group |
 | **Private Message (PM)** | `[PM from Eric]: Hello` / `[PM to Mark]: Hi` | Direct Peer Sockets |
