@@ -16,7 +16,7 @@ An extensible, multi-threaded terminal chat application implemented using standa
   * `/help` — Generates a localized command manual.
   * `/list` — Displays a real-time list of all authenticated nicknames.
   * `/msg [username] [message]` — Routes targeted, non-broadcast isolated private messages.
-* **Graceful Timeouts & Shutdowns:** The server manages an active `server.settimeout(1.0)` lifecycle loop. This allows the main process to check and catch a terminal `KeyboardInterrupt` (`Ctrl+C`) instantly, dropping sockets cleanly without creating lingering phantom background listening ports on the operating system.
+* **Timeouts & Shutdowns:** The server manages an active `server.settimeout(1.0)` lifecycle loop. This allows the main process to check and catch a terminal `KeyboardInterrupt` (`Ctrl+C`) instantly, dropping sockets cleanly without creating lingering phantom background listening ports on the operating system.
 
 ---
 
